@@ -1,4 +1,3 @@
 language: perl
-script: prove -v monitor.t
 perl:
   - "5.22"
