@@ -1,4 +1,4 @@
-package My::Class;
+package My::MjClass;
 
 use strict;
 use warnings;
@@ -10,12 +10,12 @@ sub new {
 
 sub set_foo {
   my $self = shift;
-  $self->{foo} = shift;
+  $self->{bar} = shift;
 }
 
 sub get_foo {
   my $self = shift;
-  return $self->{foo};
+  return $self->{baz};
 }
 
 1;
